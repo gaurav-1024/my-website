@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    background: url(back.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    /* border: 2px solid red; */
+    background-color: rgb(60, 253, 12);
+    
+}
+.logo{
+    float: left;
+    position: fixed;
+    color: black;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    /* background-color: white; */
+
+    /* background-color: orange; */
+}
+.menu{
+    float: right;
+    position: fixed;
+    right: 0px;
+    /* width: 60%; */
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 10px;
+    /* background-color: white; */
+
+    
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+a{
+    text-decoration:none;
+    padding-bottom: 1px;
+    /* color: rgb(9, 9, 9); */
+
+}
+.profile{
+    height: 85%;
+    /* border: 2px solid red; */
+}
+.intro{
+    height: 100%;
+    float: left;
+    width: 50%;
+    /* position: absolute;
+    bottom: 50%; */
+    /* background-color: rgb(195, 195, 185); */
+}
+
+#intro{
+    position: absolute;
+    bottom: 30%;
+    left:30%;
+    /* text-align: center; */
+    font-size: 50px;
+    text-align: center;
+}
+.pic{
+    float: left;
+    position: relative;
+    left: 150px;
+    height: 90px;
+    width: 90px;
+    bottom: 15px;
+
+}
+.about{
+    width: 80%;
+    /* margin-top: 50px; */
+    margin-left: 10%;
+    background-color: rgb(180, 176, 176);
+    color: rgb(9, 9, 10);
+    font-size: 25px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.projects{
+    text-align:center;
+    border-radius: 20px;
+    background-color: rgb(180, 176, 176);
+    margin-left: 10%;
+    width: 80%;
+    /* border: 2px solid blue; */
+    padding-bottom: 20px;
+    
+}
+.project1{
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20%;
+    height: 220px;
+    width: 60%;
+    border: 5px solid red;
+}
+.project2{
+    margin-top: 25px;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 230px;
+    width: 60%;
+    border: 5px solid red;
+}
+.project3{
+    margin-top: 25px;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+    width: 60%;
+    border: 5px solid red;
+    /* margin-bottom: 25px; */
+}
+.image1{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.view{
+    position: relative;
+    right: 180px;
+    top:20px;
+    font-size:25px;
+    display: inline;
+    color: blue;
+    background-color: rgb(249, 158, 173);
+    border-radius: 10px;
+    padding: 5px;
+    /* border: 2px solid rgb(232, 171, 181); */
+}
+.contact{
+    /* margin-top: 50px; */
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background: url(back.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+
+}
+.form{
+    /* border: 2px solid rgb(245, 12, 12); */
+    border-radius: 10px;
+    background-color: rgb(167, 161, 161);
+    width: 35%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 35%;
+    /* margin-bottom: 25px; */
+    
+}
+.form_element{
+    margin-top: 10px;
+    margin-left: 48px;
+}
+
+input{
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.footer_element{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+#submit{
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
